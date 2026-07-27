@@ -1,46 +1,34 @@
 ---
 title: "Các events đã tham gia"
-date: 2024-01-01
+date: 2026-07-24
 weight: 4
 chapter: false
 pre: " <b> 4. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
+Trong suốt quá trình tham gia chương trình thực tập **AWS First Cloud AI Journey (FCAJ)**, em đã có cơ hội tham dự các sự kiện chuyên môn và hội thảo công nghệ do AWS Việt Nam tổ chức:
 
-> Trong phần này, các bạn cần liệt kê và mô tả chi tiết các sự kiện (event) mà mình đã tham gia trong suốt quá trình thực tập hoặc làm việc. 
-> 
-> Mỗi sự kiện nên được trình bày theo định dạng Event 1, Event 2, Event 3…, kèm theo các thông tin:
-> * Tên sự kiện
-> * Thời gian tổ chức
-> * Địa điểm (nếu có)
-> * Vai trò của bạn trong sự kiện (người tham dự, hỗ trợ tổ chức, diễn giả, v.v.)
-> * Mô tả ngắn gọn nội dung và hoạt động chính trong sự kiện
-> * Kết quả hoặc giá trị đạt được (bài học, kỹ năng mới, đóng góp cho nhóm/dự án)
-> * Việc liệt kê này giúp thể hiện rõ sự tham gia thực tế của bạn, cũng như các kỹ năng mềm và kinh nghiệm bạn đã tích lũy qua từng sự kiện.
+### 1. Event 1: AWS First Cloud AI Journey Onboarding & Tech Kick-off
+&emsp;**Tên sự kiện:** AWS FCAJ Onboarding & GenAI Application Development Kick-off
 
+&emsp;**Thời gian:** 09:00 ngày 15/06/2026
 
-Trong quá trình thực tập, em đã tham gia 2 events, với mỗi event là một trải nghiệm đáng nhớ với những kiến thức mới, hay và bổ ích, cùng với đó là nhứng món quà và những khoảnh khắc rất tuyệt vời.
+&emsp;**Địa điểm:** Văn phòng AWS Việt Nam, Tầng 26, Tòa nhà Bitexco Financial Tower, Số 02 Đường Hải Triều, Q.1, TP. Hồ Chí Minh
 
-### [Event 1](4.1-Event1/)
-&emsp;**Tên sự kiện:** GenAI-powered App-DB Modernization workshop
+&emsp;**Vai trò trong sự kiện:** Sinh viên thực tập / Người tham dự
 
-&emsp;**Thời gian:** 09:00 ngày 13/08/2025
+&emsp;**Nội dung chính:** Tiếp nhận lộ trình thực tập 8 tuần, tìm hiểu quy định bảo mật thông tin, lắng nghe chia sẻ định hướng từ các Chuyên gia giải pháp (Solutions Architects) của AWS và thiết lập tài nguyên đám mây ban đầu.
 
-&emsp;**Địa điểm:** Tầng 26, tòa nhà Bitexco, số 02 đường Hải Triều, phường Sài Gòn, thành phố Hồ Chí Minh
+---
 
-&emsp;**Vai trò trong sự kiện:** Người tham dự 
+### 2. Event 2: GenAI-powered App & Database Modernization Workshop
+&emsp;**Tên sự kiện:** AWS GenAI-powered Application & Database Modernization Workshop
 
+&emsp;**Thời gian:** 09:00 ngày 13/07/2026
 
+&emsp;**Địa điểm:** Tầng 26, Tòa nhà Bitexco Financial Tower, Số 02 Đường Hải Triều, Q.1, TP. Hồ Chí Minh
 
-### [Event 2](4.2-Event2/)
-&emsp;**Tên sự kiện:** GenAI-powered App-DB Modernization workshop
+&emsp;**Vai trò trong sự kiện:** Sinh viên thực tập / Người tham dự thực hành
 
-&emsp;**Thời gian:** 09:00 ngày 13/08/2025
-
-&emsp;**Địa điểm:** Tầng 26, tòa nhà Bitexco, số 02 đường Hải Triều, phường Sài Gòn, thành phố Hồ Chí Minh
-
-&emsp;**Vai trò trong sự kiện:** Người tham dự 
+&emsp;**Nội dung chính:** Thực hành hiện đại hóa ứng dụng web & database với các dịch vụ AWS Bedrock, Amazon RDS, Serverless API Gateway và kỹ thuật tối ưu hóa độ trễ xử lý dữ liệu truyền thông đa phương tiện.
 

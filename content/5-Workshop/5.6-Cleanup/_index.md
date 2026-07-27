@@ -1,32 +1,37 @@
 ---
-title : "Clean up"
-date : 2024-01-01
+title : "Resource Cleanup"
+date : 2026-07-24
 weight : 6
 chapter : false
 pre : " <b> 5.6. </b> "
 ---
-Congratulations on completing this workshop! 
-In this workshop, you learned architecture patterns for accessing Amazon S3 without using the Public Internet. 
-+ By creating a gateway endpoint, you enabled direct communication between EC2 resources and Amazon S3, without traversing an Internet Gateway. 
-+ By creating an interface endpoint you extended S3 connectivity to resources running in your on-premises data center via AWS Site-to-Site VPN or Direct Connect. 
 
-#### clean up
-1. Navigate to Hosted Zones on the left side of Route 53 console. Click the name of *s3.us-east-1.amazonaws.com* zone. Click Delete and confirm deletion by typing delete. 
+#### Cleaning Up AWS Resources
 
-![hosted zone](/images/5-Workshop/5.6-Cleanup/delete-zone.png)
+After finishing the workshop and documenting your test results, clean up all provisioned AWS resources to prevent unnecessary cloud costs:
 
-2. Disassociate the Route 53 Resolver Rule - myS3Rule from "VPC Onprem" and Delete it. 
+#### 1. Stop & Remove Docker Container on EC2
 
-![hosted zone](/images/5-Workshop/5.6-Cleanup/vpc.png)
+SSH into EC2 shell:
+```bash
+docker stop backend-service
+docker rm backend-service
+```
 
-4. Open the CloudFormation console  and delete the two CloudFormation Stacks that you created for this lab:
-+ PLOnpremSetup
-+ PLCloudSetup
+#### 2. Terminate or Stop Amazon EC2 Instance
 
-![delete stack](/images/5-Workshop/5.6-Cleanup/delete-stack.png)
+1. Open **AWS Management Console** ➔ Navigate to **EC2** ➔ **Instances**.
+2. Select your Fav Web Backend EC2 Instance.
+3. Click **Instance state** ➔ Choose **Stop instance** or **Terminate instance**.
 
-5. Delete S3 buckets
-+ Open S3 console
-+ Choose the bucket we created for the lab, click and confirm empty. Click delete and confirm delete.
+#### 3. Delete Amazon S3 Buckets
 
-![delete s3](/images/5-Workshop/5.6-Cleanup/delete-s3.png)
+1. Open **Amazon S3 Console**.
+2. Select `fav-web-frontend-bucket` (and media/embeddings storage bucket).
+3. Click **Empty** to clear all stored objects.
+4. Click **Delete** to delete the bucket.
+
+#### 4. Delete EC2 Key Pair & Security Group (Optional)
+
+1. Navigate to **EC2 Console** ➔ **Key Pairs** ➔ Delete `ec2_key.pem`.
+2. Navigate to **Security Groups** ➔ Delete lab Security Group.

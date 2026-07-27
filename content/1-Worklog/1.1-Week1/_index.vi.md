@@ -1,59 +1,28 @@
 ---
 title: "Worklog Tuần 1"
-date: 2024-01-01
+date: 2026-07-24
 weight: 1
 chapter: false
 pre: " <b> 1.1. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
 
 ### Mục tiêu tuần 1:
+* Tiếp nhận chương trình thực tập AWS First Cloud AI Journey.
+* Tìm hiểu hệ sinh thái điện toán đám mây AWS và cấu hình tài khoản AWS Free Tier & AWS CLI.
+* Khởi tạo khung ứng dụng local cơ bản cho dự án Fav Web Portal (FastAPI Backend + React Frontend).
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
-
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-
+### Các công việc triển khai trong tuần này:
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành |
+| --- | --- | --- | --- |
+| 2 | - Tham gia buổi Onboarding chương trình FCAJ <br> - Đọc hiểu nội quy và lộ trình thực tập | 15/06/2026 | 15/06/2026 |
+| 3 | - Tìm hiểu nhóm dịch vụ AWS Compute, Storage, Database <br> - Khởi tạo tài khoản AWS Free Tier & cấu hình IAM Admin | 16/06/2026 | 16/06/2026 |
+| 4 | - Cài đặt AWS CLI v2 trên máy local, cấu hình Access Key & Region `ap-southeast-2` | 17/06/2026 | 17/06/2026 |
+| 5 | - Khởi tạo khung dự án **Fav Web Portal** <br> - Xây dựng Backend FastAPI cơ bản (xác thực, người dùng, bài viết, nhạc, game) | 18/06/2026 | 19/06/2026 |
+| 6 | - Xây dựng Frontend React/Vite cơ bản <br> - Tích hợp module AI nhận diện khuôn mặt local (`facenet-pytorch`) | 20/06/2026 | 21/06/2026 |
 
 ### Kết quả đạt được tuần 1:
+* Đã sẵn sàng tài khoản AWS và cấu hình AWS CLI local thành công.
+* Chạy thành công ứng dụng **Fav Web Portal** nguyên mẫu dưới máy local.
+* Tích hợp thành công module nhận diện khuôn mặt local bằng camera.
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+![Giao diện Fav Web Portal](/images/dashboard.png)

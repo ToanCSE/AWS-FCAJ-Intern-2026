@@ -1,59 +1,30 @@
 ---
 title: "Worklog Tuần 3"
-date: 2024-01-01
-weight: 1
+date: 2026-07-24
+weight: 3
 chapter: false
 pre: " <b> 1.3. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
 
 ### Mục tiêu tuần 3:
+* Khởi tạo EC2 Instance & Security Groups trên AWS Console.
+* Triển khai Backend FastAPI Docker lên EC2.
+* Tích hợp lưu trữ AWS S3 cho ảnh raw, ảnh log webcam & vector embeddings (`boto3`).
+* Triển khai Frontend React/Vite lên AWS S3 Static Website Hosting.
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
-
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-
+### Các công việc triển khai trong tuần này:
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành |
+| --- | --- | --- | --- |
+| 2 | - Tạo AWS S3 Buckets cho media storage & frontend hosting <br> - Tích hợp `boto3` SDK vào `backend/services/s3_service.py` | 29/06/2026 | 30/06/2026 |
+| 3 | - Cập nhật logic lưu ảnh webcam log và ảnh đăng ký khuôn mặt trực tiếp lên S3 Bucket | 01/07/2026 | 01/07/2026 |
+| 4 | - Khởi tạo Ubuntu EC2 Instance, mở Security Group Port 80/8000/22 | 02/07/2026 | 02/07/2026 |
+| 5 | - SSH vào EC2, build và chạy `fav-web-backend` container với `-v` Volume mounts | 03/07/2026 | 04/07/2026 |
+| 6 | - Build `npm run build` với `VITE_API_URL` trỏ tới EC2 Public IP và upload đè lên S3 Static Web | 05/07/2026 | 05/07/2026 |
 
 ### Kết quả đạt được tuần 3:
+* Backend Docker chạy thành công trên AWS EC2 (`http://52.63.251.110`).
+* Frontend React/Vite live trên AWS S3 Static Website.
+* Ảnh tải lên và vector khuôn mặt được tự động lưu trữ trên AWS S3.
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+![Quản lý AWS EC2 Instance](/images/ec2.png)
+![Lưu trữ dữ liệu AWS S3 Storage](/images/s3.png)
