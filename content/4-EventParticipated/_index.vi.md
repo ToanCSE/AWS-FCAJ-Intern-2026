@@ -8,16 +8,22 @@ pre: " <b> 4. </b> "
 
 Trong suốt quá trình tham gia chương trình thực tập **AWS First Cloud AI Journey (FCAJ)**, em đã có cơ hội tham dự các sự kiện chuyên môn và hội thảo công nghệ do AWS Việt Nam tổ chức:
 
-### 1. [Event 1: Event Meeting Kick-off (06/06/2026)](4.1-Event1/)
-&emsp;**Tên sự kiện:** Event Meeting - FCAJ Orientation & Kick-off
+### 1. [Event 1: Event Meeting Kick-off & Tech Sharing (06/06/2026)](4.1-Event1/)
+&emsp;**Tên sự kiện:** Event Meeting - FCAJ Orientation & Tech Sharing
 
 &emsp;**Thời gian tổ chức:** 06/06/2026
 
 &emsp;**Vai trò trong sự kiện:** Người tham dự
 
-&emsp;**Nội dung & Hoạt động chính:** [Xem thư mục tài liệu & ảnh sự kiện trên Google Drive](https://drive.google.com/drive/folders/1EgyIOIjUsgAMugJDcKKQy-AYbWkrHrLX) — Tham gia họp mặt giao lưu định hướng chương trình thực tập AWS First Cloud AI Journey, tiếp nhận nội quy và lộ trình học tập.
+&emsp;**Nội dung & 6 Chủ đề báo cáo chính:** [Xem tài liệu & Slide sự kiện trên Google Drive](https://drive.google.com/drive/folders/1EgyIOIjUsgAMugJDcKKQy-AYbWkrHrLX)
+- **Trương Phước:** *Cách làm việc nhóm hiệu quả.*
+- **Việt Phát:** *AWS Neptune for Building a Graph Knowledge Base for GraphRAG.*
+- **Vinh Trần:** *Từ IT Helpdesk lên Senior Sysadmin: Hành trình tự học & Lộ trình dịch chuyển sang Cloud/DevOps.*
+- **Bảo Huỳnh:** *Docker - A Containerization Technology.*
+- **Nguyễn Quốc Bảo:** *Multiplayer in the Cloud: Connecting Godot Clients with AWS WebSockets.*
+- **Lê Hoàng Gia Đại:** *Combining AWS WAF with Machine Learning for Cyber Attack Detection on AWS.*
 
-&emsp;**Kết quả đạt được:** Nắm vững định hướng thực tập, kết nối với các Mentor và đồng đội, chuẩn bị sẵn sàng môi trường phát triển ứng dụng trên AWS.
+&emsp;**Kết quả đạt được:** Tiếp thu kiến thức Cloud/DevOps đa dạng (AWS Neptune, Docker, WebSockets, WAF ML), nâng cao kỹ năng làm việc nhóm và chuẩn bị hạ tầng triển khai dự án Fav Web Portal.
 
 ---
 
