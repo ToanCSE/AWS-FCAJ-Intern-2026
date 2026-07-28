@@ -27,14 +27,18 @@ Trong suốt quá trình tham gia chương trình thực tập **AWS First Cloud
 
 ---
 
-### 2. [Event 2: GenAI-powered App & Database Modernization Workshop](4.2-Event2/)
-&emsp;**Tên sự kiện:** AWS GenAI-powered Application & Database Modernization Workshop
+### 2. [Event 2: Event Meeting 2 - Cloud Community & Advanced Architecture (13/07/2026)](4.2-Event2/)
+&emsp;**Tên sự kiện:** Event Meeting 2 - AWS Hackathon Sharing & Cloud-Native Architecture
 
-&emsp;**Thời gian:** 09:00 ngày 13/07/2026
+&emsp;**Thời gian tổ chức:** 13/07/2026
 
-&emsp;**Địa điểm:** Tầng 26, Tòa nhà Bitexco Financial Tower, Số 02 Đường Hải Triều, Q.1, TP. Hồ Chí Minh
+&emsp;**Vai trò trong sự kiện:** Người tham dự
 
-&emsp;**Vai trò trong sự kiện:** Sinh viên thực tập / Người tham dự thực hành
+&emsp;**Nội dung & 4 Chủ đề báo cáo chính:** [Xem tài liệu & Slide sự kiện trên Google Drive](https://drive.google.com/drive/folders/1EgyIOIjUsgAMugJDcKKQy-AYbWkrHrLX)
+- **Team 3KA:** *Hackathon Journey - Trải nghiệm thực chiến phát triển sản phẩm nhanh.*
+- **AWS Community:** *OneTeam & AWS Community Day - Tinh thần kết nối & chia sẻ tri thức.*
+- **SignalScout Team:** *SignalScout - Intelligent Signal Analysis on AWS.*
+- **Solutions Architect:** *Building Cloud-Native Applications with AWS Solutions Architecture.*
 
-&emsp;**Nội dung chính:** Thực hành hiện đại hóa ứng dụng web & database với các dịch vụ AWS Bedrock, Amazon RDS, Serverless API Gateway và kỹ thuật tối ưu hóa độ trễ xử lý dữ liệu truyền thông đa phương tiện.
+&emsp;**Kết quả đạt được:** Học hỏi tư duy làm sản phẩm nhanh từ Hackathon, tiếp thu tiêu chuẩn thiết kế kiến trúc chuẩn AWS SA Professional và nâng cao kỹ năng xây dựng ứng dụng Cloud-Native.
 

@@ -27,13 +27,17 @@ During the **AWS First Cloud AI Journey (FCAJ)** internship program, I had the o
 
 ---
 
-### 2. [Event 2: GenAI-powered App & Database Modernization Workshop](4.2-Event2/)
-&emsp;**Event Name:** AWS GenAI-powered Application & Database Modernization Workshop
+### 2. [Event 2: Event Meeting 2 - Cloud Community & Advanced Architecture (13/07/2026)](4.2-Event2/)
+&emsp;**Event Name:** Event Meeting 2 - AWS Hackathon Sharing & Cloud-Native Architecture
 
-&emsp;**Date & Time:** 09:00 AM, July 13, 2026
+&emsp;**Date & Time:** July 13, 2026
 
-&emsp;**Location:** 26th Floor, Bitexco Financial Tower, 02 Hai Trieu Street, District 1, Ho Chi Minh City
+&emsp;**Role:** Attendee
 
-&emsp;**Role:** Intern / Hands-on Workshop Participant
+&emsp;**Main Activities & 4 Presentation Topics:** [View Event Slide & Photo Drive](https://drive.google.com/drive/folders/1EgyIOIjUsgAMugJDcKKQy-AYbWkrHrLX)
+- **Team 3KA:** *Hackathon Journey - Rapid Prototyping & Agile Problem Solving.*
+- **AWS Community:** *OneTeam & AWS Community Day - Knowledge Sharing Spirit.*
+- **SignalScout Team:** *SignalScout - Intelligent Signal Analysis on AWS.*
+- **Solutions Architect:** *Building Cloud-Native Applications with AWS Solutions Architecture.*
 
-&emsp;**Main Activities:** Hands-on practice modernizing web applications & databases utilizing AWS Bedrock, Amazon RDS, Serverless API Gateway, and latency optimization techniques for multimedia cloud workloads.
+&emsp;**Key Takeaways:** Absorbed hackathon agile execution mindset, mastered AWS SA Professional cloud-native application design standards, and enhanced cloud solution capabilities.
