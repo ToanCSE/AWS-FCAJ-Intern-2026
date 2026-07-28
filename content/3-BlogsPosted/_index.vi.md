@@ -8,8 +8,8 @@ pre: " <b> 3. </b> "
 
 Dưới đây là danh sách các bài viết chuyên môn (Blog posts) được chia sẻ trên cộng đồng [AWS Study Group](https://www.facebook.com/groups/awsstudygroupfcj) trong quá trình thực hiện dự án **Fav Web Portal**:
 
-### 1. [Blog 1 - Triển khai FastAPI Backend Containerized trên AWS EC2 & Docker](https://www.facebook.com/groups/awsstudygroupfcj)
-Bài viết chi tiết hướng dẫn đóng gói ứng dụng web FastAPI với Dockerfile tối ưu trên `python:3.10-slim`, khởi chạy container trên máy chủ AWS EC2 và cấu hình Nginx Reverse Proxy kết hợp Systemd / Volume mounts để đảm bảo tính sẵn sàng cao.
+### 1. [Blog 1 - Sau khoảng 2 tháng tìm hiểu AWS, mình hiểu EC2 như thế nào?](3.1-Blog1/)
+Bài viết chi tiết chia sẻ góc nhìn thực tế về Amazon EC2 sau 2 tháng tự tìm hiểu: phân tích khái niệm EC2 không chỉ là "máy ảo", cách lựa chọn Instance Type tối ưu chi phí, vai trò của Security Group và mối liên kết giữa EC2 với IAM, VPC, CloudWatch trong hệ sinh thái AWS.
 
 ### 2. [Blog 2 - Tối ưu hóa Lưu trữ Amazon S3 & Giải quyết triệt để sự cố Bảo mật CORS/CSP Header](https://www.facebook.com/groups/awsstudygroupfcj)
 Phân tích nguyên nhân và giải pháp xử lý các lỗi trình duyệt chặn stream âm thanh/hình ảnh cross-domain. Bài viết chia sẻ cách cấu hình S3 CORS Rules chuẩn xác và thiết lập chính sách Content Security Policy (`media-src`, `connect-src`) bảo mật tuyệt đối.
