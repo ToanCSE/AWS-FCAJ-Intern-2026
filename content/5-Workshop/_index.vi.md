@@ -21,4 +21,5 @@ Hệ thống kết hợp các dịch vụ đám mây cốt lõi của AWS bao g�
 3. [Triển khai Frontend React/Vite trên Amazon S3](5.3-S3-vpc/)
 4. [Triển khai Backend FastAPI Docker trên Amazon EC2](5.4-S3-onprem/)
 5. [Cấu hình Bảo mật, IAM Policy, CORS & CSP Header](5.5-Policy/)
-6. [Dọn dẹp tài nguyên AWS](5.6-Cleanup/)
+6. [Kiểm thử & Kiểm tra kết quả (Test & Validation)](5.6-Test/)
+7. [Dọn dẹp tài nguyên AWS](5.7-Cleanup/)

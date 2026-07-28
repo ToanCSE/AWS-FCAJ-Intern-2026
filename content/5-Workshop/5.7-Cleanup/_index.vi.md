@@ -1,9 +1,9 @@
 ---
 title : "Dọn dẹp tài nguyên"
 date : 2026-07-24
-weight : 6
+weight : 7
 chapter : false
-pre : " <b> 5.6. </b> "
+pre : " <b> 5.7. </b> "
 ---
 
 #### Dọn dẹp tài nguyên trên AWS

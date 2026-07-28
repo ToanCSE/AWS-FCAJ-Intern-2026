@@ -21,4 +21,5 @@ The architecture combines AWS cloud services including **Amazon S3** (Static Web
 3. [Deploy React/Vite Frontend on Amazon S3](5.3-S3-vpc/)
 4. [Deploy FastAPI Docker Backend on Amazon EC2](5.4-S3-onprem/)
 5. [Security, IAM Policy, CORS & CSP Configuration](5.5-Policy/)
-6. [Resource Cleanup](5.6-Cleanup/)
+6. [Testing & Validation](5.6-Test/)
+7. [Resource Cleanup](5.7-Cleanup/)
