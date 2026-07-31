@@ -6,8 +6,6 @@ chapter: false
 pre: " <b> 6. </b> "
 ---
 
-# Self-Evaluation
-
 Throughout the **8-week** **AWS First Cloud AI Journey (FCAJ)** program, I had the opportunity to learn the core services of Amazon Web Services and apply this knowledge by deploying the **Fav Web Portal** project on the AWS Cloud platform.
 
 During the project, I gradually became familiar with the complete workflow of deploying a web application on AWS, including architecture design, service deployment, database integration, cloud storage, system monitoring, testing, and technical documentation. In addition to improving my technical knowledge, the program also helped me strengthen my self-learning ability, problem-solving skills, and project planning skills.
