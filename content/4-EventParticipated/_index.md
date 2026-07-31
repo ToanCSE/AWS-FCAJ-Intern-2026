@@ -1,5 +1,5 @@
 ---
-title: "Event Meeting 3 (AWS Hackathon Sharing & Cloud-Native Architecture)"
+title: "Event"
 date: 2026-07-29
 weight: 4
 chapter: false
