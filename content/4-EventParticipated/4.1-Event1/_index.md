@@ -12,7 +12,7 @@ pre: " <b> 4.1. </b> "
 
 ---
 
-# Introduction
+## Introduction
 
 The **FCAJ Meetup** was one of the technical sharing sessions organized as part of the **AWS First Cloud AI Journey (FCAJ)** program for students interested in Cloud Computing and Artificial Intelligence. The event brought together engineers and professionals from industry to share practical experiences in **DevOps, Data Analytics, Cloud Computing**, and career development.
 
@@ -20,7 +20,7 @@ Through the presentations and discussions, participants had the opportunity to g
 
 ---
 
-## Event Objectives
+### Event Objectives
 
 The meetup was organized to help students:
 
@@ -31,7 +31,7 @@ The meetup was organized to help students:
 
 ---
 
-## Speakers
+### Speakers
 
 - **Mr. Cường Nguyễn** – Process Engineer
 - **Mr. Đạt Phạm** – Data Analytics Engineer
@@ -42,7 +42,7 @@ The meetup was organized to help students:
 
 ---
 
-## 1. Career Journey & Corporate Culture
+### 1. Career Journey & Corporate Culture
 
 **Speakers:** Mr. Cường Nguyễn & Mr. Đạt Phạm
 
@@ -54,7 +54,7 @@ Another memorable topic was the corporate culture adopted by many international 
 
 ---
 
-## 2. What Does a DevOps Engineer Really Do?
+### 2. What Does a DevOps Engineer Really Do?
 
 **Speaker:** Mr. Trong H. Trương – DevOps Engineer
 
@@ -66,7 +66,7 @@ In addition, the speaker emphasized that while AI can assist with software devel
 
 ---
 
-## 3. From First Cloud AI Journey to AWS Partner
+### 3. From First Cloud AI Journey to AWS Partner
 
 **Speaker:** Danh Hoàng Hiếu Nghị – AI Engineer & AWS Community Builder
 
@@ -78,7 +78,7 @@ The speaker also stressed the importance of building a strong **portfolio**, con
 
 ---
 
-## 4. A Scalable URL Shortening Service on AWS
+### 4. A Scalable URL Shortening Service on AWS
 
 **Speakers:** Đinh Trung Kiên – Lead Developer at Startup & Nguyễn Minh Thọ – Student
 
@@ -92,23 +92,23 @@ From this presentation, I gained a better understanding of distributed system de
 
 ---
 
-# Outcomes & Key Takeaways
+## Outcomes & Key Takeaways
 
-## 1. Better Understanding of the Professional Workplace
+### 1. Better Understanding of the Professional Workplace
 
 Through the speakers' experiences, I gained a clearer understanding of the expectations within the IT industry. Besides technical knowledge, companies also value communication skills, teamwork, critical thinking, and problem-solving abilities.
 
-## 2. Strengthened Knowledge of DevOps and Cloud Computing
+### 2. Strengthened Knowledge of DevOps and Cloud Computing
 
 The meetup helped me better understand the role of DevOps Engineers, an effective learning roadmap, and how AWS services work together to build scalable systems. These insights provided clearer direction for my learning journey.
 
-## 3. Broader Career Perspective
+### 3. Broader Career Perspective
 
 The presentations about AWS Community Builder and the FCAJ program highlighted the importance of participating in technology communities, developing personal portfolios, and gaining practical experience through real-world projects. These are valuable factors in preparing for internships and future careers.
 
 ---
 
-# Applying the Knowledge to My Learning Journey
+## Applying the Knowledge to My Learning Journey
 
 After attending the FCAJ Meetup, I realized that many of the ideas presented could be directly applied to my studies and future career development.
 
@@ -120,7 +120,7 @@ After attending the FCAJ Meetup, I realized that many of the ideas presented cou
 
 ---
 
-# Event Experience
+## Event Experience
 
 The FCAJ Meetup was a valuable experience because every presentation was delivered by engineers with real industry experience. Instead of focusing only on theoretical concepts, the speakers shared practical knowledge, current technologies, and the essential skills students should develop before entering the professional workplace.
 
@@ -130,7 +130,7 @@ The event also provided opportunities to interact with both industry professiona
 
 ---
 
-# Lessons Learned
+## Lessons Learned
 
 After participating in the FCAJ Meetup, I learned several important lessons:
 
