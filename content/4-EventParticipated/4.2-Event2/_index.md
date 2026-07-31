@@ -6,7 +6,7 @@ chapter: false
 pre: " <b> 4.2. </b> "
 ---
 
-# Event 2: Gameday - 8 Teams Battle
+## Event 2: Gameday - 8 Teams Battle
 
 - **Event Name:** Gameday - 8 Teams Battle
 - **Event Date:** 20/06/2026
@@ -14,7 +14,7 @@ pre: " <b> 4.2. </b> "
 
 ---
 
-# Introduction
+## Introduction
 
 **Gameday - 8 Teams Battle** was a knowledge competition organized as part of the **First Cloud AI Journey (FCAJ)** program. Unlike workshops that mainly focus on knowledge sharing from speakers, Gameday was designed as a direct team competition, creating an engaging learning environment where participants could review learned knowledge while improving their problem-solving skills, quick thinking, and teamwork abilities.
 
@@ -22,7 +22,7 @@ The competition included **8 teams**, with each team consisting of multiple memb
 
 ---
 
-# Objectives of the Event
+## Objectives of the Event
 
 The event was organized to provide an academic playground for FCAJ participants, helping them reinforce their AWS Cloud knowledge through an interactive competition format rather than traditional theoretical learning.
 
@@ -36,9 +36,9 @@ The main objectives included:
 
 ---
 
-# Main Activities & Contents
+## Main Activities & Contents
 
-## 1. Opening Session
+### 1. Opening Session
 
 The program started with an introduction to the competition rules and scoring system. The organizers then divided the **8 teams** into **4 competing pairs** following a direct elimination format. Each team had a short preparation period to discuss strategies, assign responsibilities, and coordinate before starting the competition.
 
@@ -46,7 +46,7 @@ The atmosphere became more exciting as teams prepared for their matches and foll
 
 ---
 
-## 2. AWS Cloud Knowledge Competition
+### 2. AWS Cloud Knowledge Competition
 
 Each team participated in matches containing questions related to the knowledge covered throughout the FCAJ program. The topics included popular AWS services such as **Amazon EC2**, **Amazon S3**, **Amazon RDS**, **Amazon VPC**, **IAM**, and **AWS Lambda**, along with concepts related to Cloud Computing, security, system deployment models, and practical scenarios.
 
@@ -54,7 +54,7 @@ Each question required team members to quickly discuss, analyze, and agree on th
 
 ---
 
-## 3. Determining Finalist Teams
+### 3. Determining Finalist Teams
 
 After completing all matches, the organizers summarized the results and announced the **two winning teams** that advanced to the final round. The remaining teams ended their competition journey but stayed to observe, interact, and support the finalist teams.
 
@@ -62,7 +62,7 @@ Due to the limited duration of the event, the final round was not held on the sa
 
 ---
 
-## 4. Program Summary
+### 4. Program Summary
 
 At the end of the event, the organizers shared feedback about the teams' performance and summarized the highlights of the competition. Some questions were explained in more detail to help participants better understand the concepts and improve their knowledge gaps.
 
@@ -70,23 +70,23 @@ Although the final round had not taken place yet, Gameday still created a positi
 
 ---
 
-# Outcomes & Key Takeaways
+## Outcomes & Key Takeaways
 
-## 1. Strengthening AWS Cloud Knowledge
+### 1. Strengthening AWS Cloud Knowledge
 
 Through the competition, I had the opportunity to review important AWS Cloud concepts such as EC2, S3, IAM, VPC, RDS, and Lambda. Answering questions under time pressure helped me remember the concepts more effectively and better understand how AWS services can be applied to different scenarios.
 
-## 2. Improving Teamwork Skills
+### 2. Improving Teamwork Skills
 
 During the competition, team members needed to continuously exchange ideas, analyze questions, and reach agreements within a short period of time. This experience helped me improve communication skills, teamwork abilities, and decision-making under pressure.
 
-## 3. Developing Problem-Solving and Quick Thinking
+### 3. Developing Problem-Solving and Quick Thinking
 
 The competition questions did not only require memorizing knowledge but also required participants to analyze and apply concepts to practical situations. Through this activity, I realized that I need to continue practicing and exploring AWS services more deeply in order to handle more complex problems in the future.
 
 ---
 
-# Application to Learning Process
+## Application to Learning Process
 
 After participating in Gameday, I realized that combining theoretical learning with interactive activities and competitions makes the learning process more effective. In the future, I will continue reviewing AWS services through hands-on labs, practical exercises, and personal projects to strengthen my knowledge.
 
@@ -94,7 +94,7 @@ Additionally, I will actively participate in AWS community activities, improve t
 
 ---
 
-# Personal Experience
+## Personal Experience
 
 For me, Gameday was an exciting and meaningful activity because it created a competitive environment where participants could apply the knowledge they had learned. Each match was engaging as teams continuously discussed and worked together to find the correct answers within a short period of time.
 
@@ -104,7 +104,7 @@ Through this activity, I not only reviewed AWS Cloud knowledge but also had the 
 
 ---
 
-# Lessons Learned
+## Lessons Learned
 
 Through the **Gameday - 8 Teams Battle** event, I realized that learning through practical activities and competitions can be more effective than only studying theory. The questions in the competition helped me identify areas where my knowledge was not strong enough and encouraged me to continue improving.
 
