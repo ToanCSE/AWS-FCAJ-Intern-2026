@@ -6,8 +6,6 @@ chapter: false
 pre: " <b> 4.3. </b> "
 ---
 
-# Event 3: Event Meeting 3 - Cloud Community & Advanced Architecture Sharing
-
 - **Event Name:** Event Meeting 3 (AWS Hackathon Sharing & Cloud-Native Architecture)
 - **Event Date:** July 25, 2026
 - **Role:** Student Participant
