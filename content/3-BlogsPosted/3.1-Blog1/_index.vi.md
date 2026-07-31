@@ -1,12 +1,10 @@
 ---
 title: "Blog 1: Sau khoảng 2 tháng tìm hiểu AWS, mình hiểu EC2 như thế nào?"
-date: 2026-07-24
+date: 2026-07-29
 weight: 1
 chapter: false
 pre: " <b> 3.1. </b> "
 ---
-
-# Sau khoảng 2 tháng tìm hiểu AWS, mình hiểu EC2 như thế nào?
 
 > *Bài viết được chia sẻ bởi sinh viên trên cộng đồng [AWS Study Group VN](https://www.facebook.com/groups/awsstudygroupfcj).*
 

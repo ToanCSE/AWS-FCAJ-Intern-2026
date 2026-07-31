@@ -1,28 +1,26 @@
 ---
 title: "Worklog Tuần 1"
-date: 2026-07-24
+date: 2026-07-29
 weight: 1
 chapter: false
 pre: " <b> 1.1. </b> "
 ---
 
 ### Mục tiêu tuần 1:
-* Tiếp nhận chương trình thực tập AWS First Cloud AI Journey.
-* Tìm hiểu hệ sinh thái điện toán đám mây AWS và cấu hình tài khoản AWS Free Tier & AWS CLI.
-* Khởi tạo khung ứng dụng local cơ bản cho dự án Fav Web Portal (FastAPI Backend + React Frontend).
+* Làm quen với chương trình thực tập **AWS First Cloud AI Journey (FCAJ)**, tìm hiểu các kiến thức nền tảng về Cloud Computing và AWS. Đồng thời chuẩn bị môi trường phát triển, tìm hiểu cấu trúc dự án **Fav Web Portal** và thiết lập môi trường làm việc ban đầu.
 
 ### Các công việc triển khai trong tuần này:
 | Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành |
 | --- | --- | --- | --- |
-| 2 | - Tham gia buổi Onboarding chương trình FCAJ <br> - Đọc hiểu nội quy và lộ trình thực tập | 15/06/2026 | 15/06/2026 |
-| 3 | - Tìm hiểu nhóm dịch vụ AWS Compute, Storage, Database <br> - Khởi tạo tài khoản AWS Free Tier & cấu hình IAM Admin | 16/06/2026 | 16/06/2026 |
-| 4 | - Cài đặt AWS CLI v2 trên máy local, cấu hình Access Key & Region `ap-southeast-2` | 17/06/2026 | 17/06/2026 |
-| 5 | - Khởi tạo khung dự án **Fav Web Portal** <br> - Xây dựng Backend FastAPI cơ bản (xác thực, người dùng, bài viết, nhạc, game) | 18/06/2026 | 19/06/2026 |
-| 6 | - Xây dựng Frontend React/Vite cơ bản <br> - Tích hợp module AI nhận diện khuôn mặt local (`facenet-pytorch`) | 20/06/2026 | 21/06/2026 |
+| 2 | - Tìm hiểu tổng quan về chương trình FCAJ và mục tiêu của kỳ thực tập <br> - Nghiên cứu các khái niệm cơ bản về Cloud Computing và điện toán đám mây | 08/06/2026 | 08/06/2026 |
+| 3 | - Tìm hiểu kiến trúc AWS Global Infrastructure gồm Region, Availability Zone và Edge Location <br> - Làm quen với các nhóm dịch vụ AWS như Compute, Storage và Database | 09/06/2026 | 09/06/2026 |
+| 4 | - Tìm hiểu các dịch vụ AWS cơ bản: EC2, S3, IAM, RDS <br> - Nghiên cứu vai trò của từng dịch vụ trong việc xây dựng ứng dụng Cloud | 10/06/2026 | 10/06/2026 |
+| 5 | - Chuẩn bị môi trường phát triển local <br> - Cài đặt các công cụ cần thiết như Git, Visual Studio Code, AWS CLI và Hugo | 11/06/2026 | 11/06/2026 |
+| 6 | - Clone FCAJ Workshop Template từ GitHub <br> - Tìm hiểu cấu trúc project Hugo, cách tổ chức nội dung Markdown và hỗ trợ đa ngôn ngữ | 12/06/2026 | 12/06/2026 |
+| 7 | - Tham gia event FCAJ <br> - Tìm hiểu chương trình thực tập | 13/06/2026 | 13/06/2026 |
 
 ### Kết quả đạt được tuần 1:
-* Đã sẵn sàng tài khoản AWS và cấu hình AWS CLI local thành công.
-* Chạy thành công ứng dụng **Fav Web Portal** nguyên mẫu dưới máy local.
-* Tích hợp thành công module nhận diện khuôn mặt local bằng camera.
-
-![Giao diện Fav Web Portal](/images/dashboard.png)
+* Làm quen với chương trình thực tập FCAJ và nắm được các yêu cầu cần hoàn thành.
+* Thiết lập thành công môi trường phát triển phục vụ quá trình xây dựng Workshop.
+* Hiểu được cấu trúc FCAJ Workshop Template sử dụng Hugo.
+* Nắm được kiến thức nền tảng về AWS Cloud và các dịch vụ AWS cơ bản.

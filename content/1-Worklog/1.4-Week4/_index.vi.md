@@ -1,30 +1,27 @@
 ---
 title: "Worklog Tuần 4"
-date: 2026-07-24
+date: 2026-07-29
 weight: 4
 chapter: false
 pre: " <b> 1.4. </b> "
 ---
 
 ### Mục tiêu tuần 4:
-* Khởi tạo và kết nối cơ sở dữ liệu AWS RDS PostgreSQL (Free Tier).
-* Thiết lập Security Group liên kết giữa EC2 Backend và RDS PostgreSQL.
-* Cấu hình SQLAlchemy `DATABASE_URL` hỗ trợ cả SQLite local và Cloud RDS PostgreSQL.
-* Thực hiện script seed dữ liệu ban đầu và khởi tạo admin mặc định.
+* Tích hợp cơ sở dữ liệu Cloud bằng dịch vụ **AWS RDS PostgreSQL** vào hệ thống **Fav Web Portal**.
+* Thiết lập kết nối giữa Backend triển khai trên EC2 và cơ sở dữ liệu RDS.
+* Điều chỉnh cấu hình Backend để hỗ trợ hoạt động với database trên môi trường Cloud.
 
 ### Các công việc triển khai trong tuần này:
 | Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành |
 | --- | --- | --- | --- |
-| 2 | - Tạo AWS RDS PostgreSQL Instance trên AWS Console | 06/07/2026 | 06/07/2026 |
-| 3 | - Cấu hình Inbound Rule cho Security Group của RDS chỉ cho phép IP EC2 kết nối qua Port 5432 | 07/07/2026 | 07/07/2026 |
-| 4 | - Thêm driver `psycopg2-binary` vào `backend/requirements.txt` | 08/07/2026 | 08/07/2026 |
-| 5 | - Cập nhật `backend/services/db_models.py` để linh hoạt đọc `DATABASE_URL` từ `.env` | 09/07/2026 | 10/07/2026 |
-| 6 | - Kiểm thử tính năng tự tạo bảng và seed admin `123456` khi khởi chạy container trên Cloud | 11/07/2026 | 12/07/2026 |
+| 2 | - Tìm hiểu mô hình quản lý database trên AWS RDS <br> - Khởi tạo PostgreSQL Database Instance trên AWS Console | 29/06/2026 | 29/06/2026 |
+| 3 | - Cấu hình Security Group cho RDS <br> - Thiết lập quyền truy cập để Backend EC2 có thể kết nối tới PostgreSQL Database | 30/06/2026 | 30/06/2026 |
+| 4 | - Cập nhật Backend để hỗ trợ kết nối với AWS RDS PostgreSQL <br> - Bổ sung thư viện cần thiết cho quá trình kết nối database | 01/07/2026 | 01/07/2026 |
+| 5 | - Điều chỉnh cấu hình database connection thông qua biến môi trường `DATABASE_URL` <br> - Kiểm tra khả năng chuyển đổi giữa database local và Cloud database | 02/07/2026 | 03/07/2026 |
+| 6 | - Kiểm thử kết nối Backend với RDS PostgreSQL <br> - Kiểm tra dữ liệu ứng dụng sau khi chuyển sang môi trường Cloud | 04/07/2026 | 05/07/2026 |
 
 ### Kết quả đạt được tuần 4:
-* Đã kết nối thành công Backend EC2 tới AWS RDS PostgreSQL.
-* Dữ liệu ứng dụng (Users, Posts, Knowledge, Games, Music, Logs) được lưu trữ an toàn trên RDS.
-
-![Phân hệ Thư viện Âm nhạc Trực tuyến](/images/music.png)
-![Phân hệ Cổng Tin tức Game](/images/games.png)
-![Phân hệ Bảng tin Đa phương tiện](/images/feed.png)
+* Kết nối thành công Backend trên EC2 với cơ sở dữ liệu AWS RDS PostgreSQL.
+* Hiểu được quy trình chuyển đổi database từ môi trường local sang Cloud.
+* Hoàn thiện bước tích hợp cơ sở dữ liệu Cloud cho hệ thống **Fav Web Portal**.
+* Đảm bảo dữ liệu của hệ thống có thể được quản lý và lưu trữ trên AWS RDS.

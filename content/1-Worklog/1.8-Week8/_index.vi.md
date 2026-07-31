@@ -1,24 +1,26 @@
 ---
 title: "Worklog Tuần 8"
-date: 2026-07-24
+date: 2026-07-29
 weight: 8
 chapter: false
 pre: " <b> 1.8. </b> "
 ---
 
 ### Mục tiêu tuần 8:
-* Hoàn thiện toàn bộ báo cáo thực tập và tài liệu hướng dẫn kỹ thuật trên Hugo FCJ Workshop Template.
-* Quay video demo hoạt động của dự án Fav Web Portal trên hạ tầng AWS Cloud.
-* Tổng kết kết quả thực tập và nộp báo cáo.
+* Hoàn thiện tài liệu Workshop theo FCAJ Hugo Template.
+* Rà soát toàn bộ hệ thống và hoàn thiện các nội dung còn thiếu của dự án.
+* Tổng kết kết quả thực hiện và chuẩn bị báo cáo cuối kỳ.
 
-### Các công việc triển khai trong tuần này:
 | Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành |
 | --- | --- | --- | --- |
-| 2 | - Soạn thảo tài liệu hướng dẫn triển khai Workshop 6 bước trong `content/5-Workshop/` | 03/08/2026 | 05/08/2026 |
-| 4 | - Cập nhật chi tiết Proposal, Architecture Diagram & Worklog 8 tuần vào Hugo Template | 06/08/2026 | 08/08/2026 |
-| 6 | - Quay video demo chi tiết quy trình đăng ký, Face ID login, đăng bài và trải nghiệm media trên AWS | 09/08/2026 | 12/08/2026 |
-| CN | - Rà soát tổng thể, kiểm tra hiển thị `hugo server` và nộp báo cáo kết thúc thực tập | 13/08/2026 | 15/08/2026 |
+| 2 | - Hoàn thiện nội dung Workshop trên Hugo Template <br> - Bổ sung hướng dẫn triển khai và hình ảnh minh họa | 27/07/2026 | 27/07/2026 |
+| 3 | - Cập nhật Proposal, Worklog và sơ đồ kiến trúc hệ thống <br> - Rà soát nội dung song ngữ (Tiếng Việt và Tiếng Anh) | 28/07/2026 | 28/07/2026 |
+| 4 | - Kiểm tra toàn bộ liên kết, hình ảnh và cấu trúc Website <br> - Hoàn thiện các phần còn thiếu trong báo cáo | 29/07/2026 | 29/07/2026 |
+| 5 | - Kiểm tra lại quá trình triển khai hệ thống trên AWS <br> - Chuẩn bị hình ảnh và nội dung phục vụ phần Demo | 30/07/2026 | 30/07/2026 |
+| 6 | - Tổng hợp kết quả thực hiện dự án <br> - Rà soát và hoàn thiện báo cáo trước khi nộp | 31/07/2026 | 31/07/2026 |
 
 ### Kết quả đạt được tuần 8:
-* Hoàn thành 100% trang Báo cáo thực tập & Workshop FCJ trên nền tảng Hugo.
-* Video demo và bộ tài liệu hướng dẫn kỹ thuật sẵn sàng cho việc nghiệm thu đề tài.
+* Hoàn thiện đầy đủ tài liệu Workshop theo FCAJ Hugo Template.
+* Hoàn thành báo cáo song ngữ và rà soát toàn bộ nội dung của dự án.
+* Chuẩn bị đầy đủ tài liệu và hình ảnh phục vụ quá trình đánh giá và nghiệm thu.
+* Kết thúc quá trình thực hiện dự án **Fav Web Portal** trên nền tảng AWS.

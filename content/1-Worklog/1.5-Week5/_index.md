@@ -1,25 +1,29 @@
 ---
 title: "Worklog Week 5"
-date: 2026-07-24
+date: 2026-07-29
 weight: 5
 chapter: false
 pre: " <b> 1.5. </b> "
 ---
 
 ### Week 5 Objectives:
-* Integrate application logging with AWS CloudWatch Logs.
-* Configure metric filters & alarms monitoring EC2 CPU usage and system events.
+* Integrate application logging and monitoring using **AWS CloudWatch**.
+* Monitor the operational status of the Backend after deployment on AWS.
+* Configure alerts to help detect potential issues during system operation.
 
 ### Tasks Executed:
-| Day | Task | Start Date | End Date |
+| Day | Tasks | Start Date | Completion Date |
 | --- | --- | --- | --- |
-| Mon | - Research AWS CloudWatch Logs SDK (`watchtower`) integration | 13/07/2026 | 13/07/2026 |
-| Tue | - Add `watchtower` package and update `backend/services/logging_service.py` | 14/07/2026 | 15/07/2026 |
-| Thu | - Configure log streaming for Face ID attempts, auth, and DB events to CloudWatch Log Group `/fav-web/backend` | 16/07/2026 | 17/07/2026 |
-| Sat | - Provision CloudWatch Alarms triggering alerts when EC2 CPU utilization exceeds 80% threshold | 18/07/2026 | 19/07/2026 |
+| 2 | - Explore the features of AWS CloudWatch Logs and CloudWatch Metrics <br> - Learn how to monitor applications on AWS | 06/07/2026 | 06/07/2026 |
+| 3 | - Integrate the `watchtower` library into the Backend <br> - Configure the logging system to send logs to CloudWatch | 07/07/2026 | 07/07/2026 |
+| 4 | - Configure logging for important events such as user login, face recognition, and system errors <br> - Verify log records in the CloudWatch Log Group | 08/07/2026 | 08/07/2026 |
+| 5 | - Create a CloudWatch Alarm to monitor EC2 CPU Utilization <br> - Configure alert thresholds for system monitoring | 09/07/2026 | 09/07/2026 |
+| 6 | - Test the Logging and Monitoring system <br> - Evaluate the ability to monitor and troubleshoot the application using CloudWatch | 10/07/2026 | 10/07/2026 |
 
 ### Week 5 Achievements:
-* Real-time application log streaming from EC2 to AWS CloudWatch Logs operational.
-* Automated CPU utilization alerts and system monitoring in place.
+* Successfully integrated AWS CloudWatch into the **Fav Web Portal** system.
+* Application logs are automatically synchronized to CloudWatch Logs.
+* Configured monitoring and alerting for EC2 resources.
+* Improved the system's monitoring and operational capabilities after deployment on AWS.
 
 ![AWS CloudWatch Logging & Monitoring](/images/cloudwatch.png)

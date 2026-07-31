@@ -1,23 +1,30 @@
 ---
 title: "Worklog Week 7"
-date: 2026-07-24
+date: 2026-07-29
 weight: 7
 chapter: false
 pre: " <b> 1.7. </b> "
 ---
 
 ### Week 7 Objectives:
-* Conduct end-to-end integration testing on AWS S3 and EC2 infrastructure.
-* Test fault tolerance and error handling during database or network disruptions.
-* Validate user experience (UX/UI), webcam Face ID scanner flow, and media playback.
+* Perform end-to-end testing of the **Fav Web Portal** system after deployment on AWS.
+* Evaluate the application's stability and performance during operation.
+* Resolve remaining issues and improve the overall user experience.
 
-### Tasks Executed:
-| Day | Task | Start Date | End Date |
+### Tasks implemented during this week:
+
+| Day | Tasks | Start Date | Completion Date |
 | --- | --- | --- | --- |
-| Mon | - End-to-End testing for User Enrollment, Face ID Login, Feed posting, and Bookmarking | 27/07/2026 | 28/07/2026 |
-| Wed | - Measure web load performance and webcam scanner response latency over production internet | 29/07/2026 | 30/07/2026 |
-| Fri | - Test error boundary handling, 429 rate limiting, and 401 session expiration handling | 31/07/2026 | 02/08/2026 |
+| 2 | - Test core system features such as user login, face recognition, post management, and content library <br> - Verify the communication flow between the Frontend and Backend | 20/07/2026 | 20/07/2026 |
+| 3 | - Verify connectivity between EC2, RDS, S3, and CloudWatch <br> - Evaluate the stability of AWS services used in the system | 21/07/2026 | 21/07/2026 |
+| 4 | - Perform performance testing and measure system response time <br> - Review and identify issues encountered during system operation | 22/07/2026 | 22/07/2026 |
+| 5 | - Resolve the remaining issues <br> - Improve the user interface and enhance the overall user experience | 23/07/2026 | 23/07/2026 |
+| 6 | - Perform final system testing after completing all improvements <br> - Evaluate the deployment results before finalizing the Workshop documentation | 24/07/2026 | 24/07/2026 |
+| 7 | - Participate in the FCAJ event| 25/07/2026 | 25/07/2026 |
+
 
 ### Week 7 Achievements:
-* End-to-End application flows on AWS S3 + EC2 proven stable and accurate.
-* Graceful error handling and user feedback mechanisms verified.
+* Successfully completed end-to-end testing of the system after deployment on AWS.
+* Resolved identified issues and improved the overall stability of the application.
+* Enhanced the performance and user experience of the **Fav Web Portal**.
+* Completed the final verification before preparing the project documentation and final report.

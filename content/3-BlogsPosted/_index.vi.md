@@ -1,18 +1,19 @@
 ---
-title: "Các bài blogs đã đăng"
-date: 2026-07-24
+title: "Các bài Blogs đã đăng"
+date: 2026-07-29
 weight: 3
 chapter: false
 pre: " <b> 3. </b> "
 ---
 
-Dưới đây là danh sách các bài viết chuyên môn (Blog posts) được chia sẻ trên cộng đồng [AWS Study Group](https://www.facebook.com/groups/awsstudygroupfcj) trong quá trình thực hiện dự án **Fav Web Portal**:
+Trong quá trình tham gia chương trình **AWS First Cloud AI Journey (FCAJ)** và thực hiện dự án **Fav Web Portal**, tôi đã chia sẻ một số bài viết trên cộng đồng **AWS Study Group VN** nhằm tổng hợp kiến thức đã học, chia sẻ kinh nghiệm thực tế và ghi lại quá trình tìm hiểu các dịch vụ AWS.
+
+Các bài viết được xây dựng dựa trên quá trình tự học, tham khảo tài liệu chính thức của AWS và trải nghiệm triển khai dự án trên nền tảng Cloud.
 
 ### 1. [Blog 1 - Sau khoảng 2 tháng tìm hiểu AWS, mình hiểu EC2 như thế nào?](3.1-Blog1/)
-Bài viết chi tiết chia sẻ góc nhìn thực tế về Amazon EC2 sau 2 tháng tự tìm hiểu: phân tích khái niệm EC2 không chỉ là "máy ảo", cách lựa chọn Instance Type tối ưu chi phí, vai trò của Security Group và mối liên kết giữa EC2 với IAM, VPC, CloudWatch trong hệ sinh thái AWS.
 
-### 2. [Blog 2 - Tối ưu hóa Lưu trữ Amazon S3 & Giải quyết triệt để sự cố Bảo mật CORS/CSP Header](https://www.facebook.com/groups/awsstudygroupfcj)
-Phân tích nguyên nhân và giải pháp xử lý các lỗi trình duyệt chặn stream âm thanh/hình ảnh cross-domain. Bài viết chia sẻ cách cấu hình S3 CORS Rules chuẩn xác và thiết lập chính sách Content Security Policy (`media-src`, `connect-src`) bảo mật tuyệt đối.
+Bài viết chia sẻ những kiến thức và góc nhìn cá nhân sau khoảng hai tháng tìm hiểu **Amazon EC2**. Nội dung tập trung giải thích EC2 dưới góc nhìn của một người mới bắt đầu, vai trò của **Instance Types**, **Security Groups** và mối liên hệ giữa EC2 với các dịch vụ như **IAM**, **VPC** và **Amazon CloudWatch** trong hệ sinh thái AWS.
 
-### 3. [Blog 3 - Tích hợp AI Nhận diện Khuôn mặt (Face ID) & Cơ chế Xác thực JWT Dual Auth trên Cloud](https://www.facebook.com/groups/awsstudygroupfcj)
-Giới thiệu kiến trúc xác thực sinh trắc học thông qua mô hình Deep Learning trích xuất vector đặc trưng khuôn mặt (`.npy`), kết hợp cơ chế xác thực kép (HttpOnly Cookie + Bearer Token Header Fallback) giúp bảo mật an toàn trước các nguy cơ tấn công XSS.
+### 2. [Blog 2 - Xây dựng kiến trúc Three-Tier cho Fav Web trên AWS](3.2-Blog2/)
+
+Bài viết giới thiệu kiến trúc **Three-Tier Architecture** được áp dụng trong dự án **Fav Web Portal**, bao gồm **Amazon S3** cho Frontend, **Amazon EC2** và **Docker** cho Backend, **Amazon RDS PostgreSQL** cho cơ sở dữ liệu cùng **Amazon CloudWatch** và **IAM** để giám sát và quản lý quyền truy cập. Đồng thời, bài viết cũng chia sẻ lý do lựa chọn từng dịch vụ AWS và những kinh nghiệm rút ra trong quá trình triển khai hệ thống thực tế.

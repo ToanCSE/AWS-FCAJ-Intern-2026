@@ -1,6 +1,6 @@
 ---
 title : "Workshop Overview & Architecture"
-date : 2026-07-24
+date : 2026-07-29
 weight : 1
 chapter : false
 pre : " <b> 5.1. </b> "

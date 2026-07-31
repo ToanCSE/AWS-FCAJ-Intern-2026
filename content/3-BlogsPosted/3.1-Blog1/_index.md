@@ -1,12 +1,11 @@
 ---
 title: "Blog 1: After 2 months of learning AWS, how do I understand Amazon EC2?"
-date: 2026-07-24
+date: 2026-07-29
 weight: 1
 chapter: false
 pre: " <b> 3.1. </b> "
 ---
 
-# After 2 months of learning AWS, how do I understand Amazon EC2?
 
 > *Published on [AWS Study Group VN](https://www.facebook.com/groups/awsstudygroupfcj).*
 

@@ -1,30 +1,30 @@
 ---
 title: "Worklog Tuần 3"
-date: 2026-07-24
+date: 2026-07-29
 weight: 3
 chapter: false
 pre: " <b> 1.3. </b> "
 ---
 
 ### Mục tiêu tuần 3:
-* Khởi tạo EC2 Instance & Security Groups trên AWS Console.
-* Triển khai Backend FastAPI Docker lên EC2.
-* Tích hợp lưu trữ AWS S3 cho ảnh raw, ảnh log webcam & vector embeddings (`boto3`).
-* Triển khai Frontend React/Vite lên AWS S3 Static Website Hosting.
+* Bắt đầu triển khai hệ thống **Fav Web Portal** trên môi trường AWS Cloud.
+* Tìm hiểu và thực hiện cấu hình các dịch vụ AWS phục vụ quá trình triển khai ứng dụng.
+* Triển khai thử nghiệm Backend và tích hợp lưu trữ dữ liệu với AWS S3.
 
 ### Các công việc triển khai trong tuần này:
 | Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành |
 | --- | --- | --- | --- |
-| 2 | - Tạo AWS S3 Buckets cho media storage & frontend hosting <br> - Tích hợp `boto3` SDK vào `backend/services/s3_service.py` | 29/06/2026 | 30/06/2026 |
-| 3 | - Cập nhật logic lưu ảnh webcam log và ảnh đăng ký khuôn mặt trực tiếp lên S3 Bucket | 01/07/2026 | 01/07/2026 |
-| 4 | - Khởi tạo Ubuntu EC2 Instance, mở Security Group Port 80/8000/22 | 02/07/2026 | 02/07/2026 |
-| 5 | - SSH vào EC2, build và chạy `fav-web-backend` container với `-v` Volume mounts | 03/07/2026 | 04/07/2026 |
-| 6 | - Build `npm run build` với `VITE_API_URL` trỏ tới EC2 Public IP và upload đè lên S3 Static Web | 05/07/2026 | 05/07/2026 |
+| 2 | - Tìm hiểu quy trình khởi tạo và cấu hình AWS EC2 Instance <br> - Chuẩn bị môi trường chạy Backend trên máy chủ Cloud | 22/06/2026 | 22/06/2026 |
+| 3 | - Cấu hình Security Group và các quyền truy cập cần thiết cho EC2 <br> - Triển khai thử nghiệm Backend FastAPI trên môi trường AWS | 23/06/2026 | 23/06/2026 |
+| 4 | - Tìm hiểu Amazon S3 và vai trò của Object Storage trong hệ thống <br> - Chuẩn bị cấu hình lưu trữ hình ảnh và dữ liệu từ ứng dụng lên S3 Bucket | 24/06/2026 | 24/06/2026 |
+| 5 | - Tích hợp AWS SDK (boto3) vào Backend <br> - Kiểm tra khả năng upload và truy xuất dữ liệu từ S3 | 25/06/2026 | 25/06/2026 |
+| 6 | - Kiểm thử hệ thống sau khi tích hợp EC2 và S3 <br> - Kiểm tra kết nối giữa Backend và các dịch vụ AWS đã cấu hình | 26/06/2026 | 26/06/2026 |
 
 ### Kết quả đạt được tuần 3:
-* Backend Docker chạy thành công trên AWS EC2 (`http://52.63.251.110`).
-* Frontend React/Vite live trên AWS S3 Static Website.
-* Ảnh tải lên và vector khuôn mặt được tự động lưu trữ trên AWS S3.
+* Hiểu được quy trình triển khai một ứng dụng Backend lên AWS EC2.
+* Cấu hình được môi trường chạy ứng dụng trên Cloud.
+* Tích hợp thành công AWS S3 để hỗ trợ lưu trữ dữ liệu cho hệ thống.
+* Hoàn thành bước triển khai đầu tiên của **Fav Web Portal** trên nền tảng AWS.
 
 ![Quản lý AWS EC2 Instance](/images/ec2.png)
 ![Lưu trữ dữ liệu AWS S3 Storage](/images/s3.png)

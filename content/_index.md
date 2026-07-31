@@ -1,6 +1,6 @@
 ---
 title: "Internship Report"
-date: 2026-07-24
+date: 2026-07-29
 weight: 1
 chapter: false
 ---
@@ -8,15 +8,15 @@ chapter: false
 # Internship Report
 
 ### Student Information:
-&emsp; **Full Name:** Nguyen Hoang Nhat Thien
+&emsp; **Full Name:** Nguyen Long Toan
 
-&emsp; **Phone Number:** 0963877559 
+&emsp; **Phone Number:** 0772037316 
 
-&emsp; **Email:** thien.nguyenhn@hcmut.edu.vn
+&emsp; **Email:** toan.nguyen3004@hcmut.edu.vn
 
 &emsp; **University:** Ho Chi Minh City University of Technology (HCMUT - VNU-HCM)
 
-&emsp; **Major:** Computer Science / Information Technology
+&emsp; **Major:** Computer Science
 
 &emsp; **Class:** FCAJ-BKU-2026
 
@@ -24,9 +24,11 @@ chapter: false
 
 &emsp; **Internship Position:** Workforce Bootcamp - First Cloud AI Journey
 
-&emsp; **Internship Duration:** From 15/06/2026 to 15/08/2026
+&emsp; **Internship Duration:** From 01/06/2026 to 15/08/2026
 
-![Profile picture](/images/avatar.png)
+<p align="center">
+  <img src="/images/avatar.png" alt="Profile picture" width="300">
+</p>
 
 ### Report Content
 

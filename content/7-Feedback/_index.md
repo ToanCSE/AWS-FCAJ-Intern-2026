@@ -1,42 +1,45 @@
 ---
-title: "Sharing and Feedback"
-date: 2026-07-24
+title: "Sharing & Feedback"
+date: 2026-07-29
 weight: 7
 chapter: false
 pre: " <b> 7. </b> "
 ---
 
-# Sharing & Feedback
+After eight weeks of participating in the **AWS First Cloud AI Journey (FCAJ)** program, I had the opportunity to gain fundamental knowledge of cloud computing while deploying the **Fav Web Portal** project on the AWS platform. This experience helped me broaden my technical knowledge, strengthen my practical skills, and gain a deeper understanding of the complete process of developing and deploying a web application in a cloud environment.
 
-After completing the 8-week **First Cloud AI Journey (FCAJ)** program organized by AWS Vietnam in collaboration with Ho Chi Minh City University of Technology (HCMUT - VNU-HCM), I would like to share my personal feedback:
+### 1. Program Experience
 
-### 1. Overall Experience Evaluation
+**1. Learning and Working Environment:**  
+The internship provided a professional, open, and supportive learning environment that encouraged continuous learning and self-improvement. The sessions and activities were well organized, allowing students to acquire new knowledge, communicate with mentors, and focus on developing their projects throughout the internship.
 
-**1. Learning & Working Environment:**  
-The internship environment was dynamic, highly professional, and inspiring. AWS office facilities provided an excellent workspace for students to research, build, and innovate.
+**2. Support from Mentors and the Organizing Team:**  
+Throughout the program, the mentors continuously supported participants by answering technical questions and providing guidance on project implementation. Their advice on system architecture, AWS services, and real-world deployment practices helped me better understand how cloud-based applications are designed, developed, and operated.
 
-**2. Mentor & Organizer Support:**  
-Mentors (especially advisor Lu Hoan Thien) provided continuous guidance on cloud architecture design and offered practical troubleshooting advice when resolving complex security issues (such as CORS, CSP, and secure cookie headers).
+**3. Relevance to My Major:**  
+The **Fav Web Portal** project closely aligns with the Computer Science curriculum. By combining web application development, database management, artificial intelligence, and AWS services such as **Amazon EC2**, **Amazon S3**, **Amazon RDS**, and **Amazon CloudWatch**, the project allowed me to apply academic knowledge to a practical cloud deployment scenario while gaining a clearer understanding of modern cloud application architecture.
 
-**3. Alignment with Academic Major:**  
-The **Fav Web Portal** project aligned with my Computer Science / IT major. Combining full-stack web development (React, FastAPI), AI Biometric Recognition, and AWS Cloud Infrastructure (EC2, S3, RDS, CloudWatch) bridged theoretical knowledge with real-world deployment skills.
-
-**4. Personal Growth Opportunities:**  
-I gained hands-on expertise with core AWS services, mastered scalable system architecture design principles, improved technical writing capabilities, and developed professional workplace discipline.
+**4. Knowledge and Skills Gained:**  
+Through this program, I gained a better understanding of the end-to-end process of deploying a web application on AWS, including architecture design, service deployment, security configuration, database integration, and system monitoring. Besides technical knowledge, I also improved my ability to study technical documentation, solve implementation challenges, work according to a structured plan, and prepare technical documentation following a professional format.
 
 ---
 
-### 2. Summary Questions
+### 2. Final Reflection
 
-* **What satisfied you the most during the internship?**  
-  Being empowered to **build and deploy a real production application on AWS Cloud**, managing everything from S3 Static Web Hosting to Dockerized EC2 containerization and security configuration.
+**What was the most satisfying part of your internship?**  
 
-* **Would you recommend the FCAJ program to your peers?**  
-  **Absolutely!** FCAJ serves as a bridge enabling students to master cutting-edge AWS Cloud technologies under expert mentorship.
+The most valuable part of this internship was the opportunity to build and deploy a complete web application on AWS instead of only learning the concepts theoretically. Implementing different components such as **Amazon EC2**, **Amazon S3**, **Amazon RDS**, and **Amazon CloudWatch** helped me understand how AWS services work together to form a complete cloud solution while providing valuable hands-on experience in application development and deployment.
+
+**Would you recommend the FCAJ program to other students?**  
+
+Yes. I would definitely recommend the FCAJ program to students who are interested in Cloud Computing and AWS. The program provides a practical learning environment, beginner-friendly content, and valuable opportunities to apply theoretical knowledge through a real-world AWS project under the guidance of experienced mentors.
 
 ---
 
-### 3. Recommendations & Appreciation
+### 3. Suggestions & Feedback
 
-- **Recommendations:** For future cohorts, incorporating hands-on workshops on Infrastructure as Code tools (such as AWS CDK or Terraform) would be very beneficial.
-- **Acknowledgements:** Sincere gratitude to the AWS First Cloud AI Journey organizers, mentors, and HCMUT faculty for providing this opportunity!
+- **Suggestion:** The program was well organized and provided valuable practical experience. If possible, I would suggest organizing additional short technical sharing sessions or Q&A discussions throughout the week instead of only on Saturdays. This would give students more opportunities to discuss implementation challenges with mentors and better understand how AWS services are applied in real-world scenarios.
+
+- **Future Expectation:** I hope future editions of the program will continue to expand and provide students with opportunities to explore more AWS services and gain experience with a wider range of cloud computing topics.
+
+- **Acknowledgement:** I would like to sincerely thank the AWS First Cloud AI Journey organizing team, all mentors, and Ho Chi Minh City University of Technology (HCMUT) for providing me with this valuable learning opportunity. The program not only strengthened my AWS knowledge but also improved my project implementation skills, planning ability, and technical documentation practices.

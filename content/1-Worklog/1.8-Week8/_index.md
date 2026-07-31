@@ -1,24 +1,26 @@
 ---
 title: "Worklog Week 8"
-date: 2026-07-24
+date: 2026-07-29
 weight: 8
 chapter: false
 pre: " <b> 1.8. </b> "
 ---
 
 ### Week 8 Objectives:
-* Complete overall internship report & workshop deployment guide on Hugo FCJ Workshop Template.
-* Record comprehensive video demonstration of Fav Web Portal on AWS Cloud.
-* Summarize internship achievements and submit final deliverables.
+* Complete the Workshop documentation using the FCAJ Hugo Template.
+* Review the entire system and finalize the remaining project content.
+* Summarize the project outcomes and prepare the final report.
 
-### Tasks Executed:
-| Day | Task | Start Date | End Date |
+| Day | Tasks | Start Date | Completion Date |
 | --- | --- | --- | --- |
-| Mon | - Draft 6-step hands-on Workshop deployment guide in `content/5-Workshop/` | 03/08/2026 | 05/08/2026 |
-| Thu | - Update Proposal, AWS Architecture Diagram, and 8-week Worklog into Hugo Template | 06/08/2026 | 08/08/2026 |
-| Sun | - Record product demonstration video covering Face ID login, media feed, and AWS deployment | 09/08/2026 | 12/08/2026 |
-| Wed | - Perform final site review using `hugo server` and submit internship report | 13/08/2026 | 15/08/2026 |
+| 2 | - Complete the Workshop content using the Hugo Template <br> - Add deployment instructions and supporting screenshots | 27/07/2026 | 27/07/2026 |
+| 3 | - Update the Proposal, Worklog, and system architecture diagram <br> - Review the bilingual content (Vietnamese and English) | 28/07/2026 | 28/07/2026 |
+| 4 | - Verify all links, images, and the website structure <br> - Complete the remaining sections of the report | 29/07/2026 | 29/07/2026 |
+| 5 | - Review the AWS deployment process <br> - Prepare screenshots and materials for the project demonstration | 30/07/2026 | 30/07/2026 |
+| 6 | - Summarize the project implementation results <br> - Perform a final review and complete the report before submission | 31/07/2026 | 31/07/2026 |
 
 ### Week 8 Achievements:
-* 100% completion of Internship Report & Workshop documentation on Hugo static site.
-* Video demonstration and deployment guide finalized for evaluation.
+* Successfully completed the Workshop documentation using the FCAJ Hugo Template.
+* Finalized the bilingual project report and reviewed all project content.
+* Prepared the required documentation and supporting materials for the final evaluation.
+* Successfully completed the **Fav Web Portal** project on the AWS Cloud platform.

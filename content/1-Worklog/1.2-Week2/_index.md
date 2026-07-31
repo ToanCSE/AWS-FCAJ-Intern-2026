@@ -1,28 +1,31 @@
 ---
 title: "Worklog Week 2"
-date: 2026-07-24
+date: 2026-07-29
 weight: 2
 chapter: false
 pre: " <b> 1.2. </b> "
 ---
 
 ### Week 2 Objectives:
-* Design Target AWS Cloud Architecture Diagram.
-* Containerize FastAPI Backend with Dockerfile.
-* Finalize local feature modules (Feed, Knowledge, Music, Game, Bookmarks).
+* Explore and design the deployment architecture of the **Fav Web Portal** system on the AWS Cloud platform.
+* Prepare the application structure for the Cloud deployment process.
+* Get familiar with Docker and perform Backend containerization to prepare for deployment on AWS.
 
-### Tasks Executed:
-| Day | Task | Start Date | End Date |
+### Tasks implemented during this week:
+
+| Day | Tasks | Start Date | Completion Date |
 | --- | --- | --- | --- |
-| Mon | - Draft target AWS Architecture Diagram (S3, EC2 Docker, RDS, CloudWatch) | 22/06/2026 | 22/06/2026 |
-| Tue | - Write optimized `backend/Dockerfile` based on `python:3.10-slim` | 23/06/2026 | 23/06/2026 |
-| Wed | - Complete Feed posts, Comments, Reactions, and Tagging functionality | 24/06/2026 | 25/06/2026 |
-| Thu | - Refactor UI to modern Sidebar Layout with Dark/Light Theme toggle | 26/06/2026 | 27/06/2026 |
-| Fri | - Test local Docker container build and runtime execution | 28/06/2026 | 28/06/2026 |
+| 2 | - Analyze the architecture of the **Fav Web Portal** system <br> - Identify the components to be deployed on AWS, including EC2, S3, RDS, and CloudWatch | 15/06/2026 | 15/06/2026 |
+| 3 | - Design the AWS system architecture diagram <br> - Define the communication flow between Frontend, Backend, Database, and Cloud services | 16/06/2026 | 16/06/2026 |
+| 4 | - Learn about Docker and the process of containerizing the FastAPI Backend application <br> - Prepare the Dockerfile for the deployment environment | 17/06/2026 | 17/06/2026 |
+| 5 | - Review and improve the Backend and Frontend structure of the project <br> - Identify the main modules of the system such as Face Recognition, Music, Game, and Knowledge | 18/06/2026 | 18/06/2026 |
+| 6 | - Build and test the Docker image for FastAPI Backend on the local environment <br> - Verify container execution and the connection between system components | 19/06/2026 | 19/06/2026 |
+| 7 | - Participate in the FCAJ event | 20/06/2026 | 20/06/2026 |
 
 ### Week 2 Achievements:
-* AWS Cloud Architecture Diagram finalized.
-* Backend Dockerfile created and validated locally.
-* Modern Sidebar Layout UI transition completed.
+* Completed the overall architecture design of the **Fav Web Portal** system on AWS Cloud.
+* Understood how application components are organized when deploying on the Cloud environment.
+* Prepared the Dockerfile and verified the containerization process of the FastAPI Backend.
+* Completed the preparation steps before deploying the application to AWS.
 
-![AWS System Architecture](/images/aws_architecture.png)
+![AWS System Architecture Diagram](/images/aws_architecture.png)

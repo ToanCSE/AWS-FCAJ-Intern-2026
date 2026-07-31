@@ -1,37 +1,38 @@
 ---
 title: "Tự đánh giá"
-date: 2026-07-24
+date: 2026-07-29
 weight: 6
 chapter: false
 pre: " <b> 6. </b> "
 ---
 
-# Tự đánh giá cá nhân (Self-Evaluation)
+Trong suốt **8 tuần** tham gia chương trình **AWS First Cloud AI Journey (FCAJ)**, em đã có cơ hội tìm hiểu các dịch vụ cốt lõi của Amazon Web Services và áp dụng kiến thức vào quá trình triển khai dự án **Fav Web Portal** trên nền tảng Cloud.
 
-Trong suốt thời gian thực tập tại **Công ty TNHH Amazon Web Services Viet Nam** (chương trình **First Cloud AI Journey - FCAJ**) từ ngày **15/06/2026** đến **15/08/2026**, tôi đã có cơ hội học hỏi, rèn luyện và áp dụng kiến thức điện toán đám mây AWS vào dự án thực tế **Fav Web Portal**.
+Thông qua quá trình thực hiện dự án, em từng bước làm quen với quy trình triển khai một ứng dụng Web trên AWS, từ thiết kế kiến trúc, triển khai các dịch vụ, tích hợp cơ sở dữ liệu, lưu trữ dữ liệu, giám sát hệ thống đến kiểm thử và hoàn thiện tài liệu kỹ thuật. Bên cạnh việc nâng cao kiến thức chuyên môn, chương trình còn giúp em rèn luyện khả năng tự học, giải quyết vấn đề và làm việc theo kế hoạch.
 
-Tôi đã trực tiếp thiết kế kiến trúc, đóng gói backend container với Docker, triển khai ứng dụng lên AWS EC2, S3, RDS, CloudWatch và trực tiếp giải quyết các sự cố kỹ thuật về bảo mật, CORS, CSP và xác thực cross-domain.
-
-Dưới đây là bảng tự đánh giá bản thân dựa trên các tiêu chí chuẩn của chương trình FCAJ:
+Dưới đây là bảng tự đánh giá dựa trên quá trình tham gia chương trình:
 
 | STT | Tiêu chí | Mô tả đánh giá | Tốt | Khá | Trung bình |
 | --- | --- | --- | :---: | :---: | :---: |
-| 1 | **Kiến thức & Kỹ năng chuyên môn** | Nắm vững kiến trúc AWS (S3, EC2, RDS, CloudWatch), FastAPI, React, Docker, AI Face Recognition | ✅ | ☐ | ☐ |
-| 2 | **Khả năng học hỏi** | Tiếp thu nhanh kiến thức cloud, chủ động nghiên cứu tài liệu AWS và các chính sách bảo mật CORS/CSP | ✅ | ☐ | ☐ |
-| 3 | **Tính chủ động** | Tự tìm hiểu nguyên nhân sự cố, chủ động đề xuất giải pháp JWT Dual Auth (Cookie + Bearer Fallback) | ✅ | ☐ | ☐ |
-| 4 | **Tinh thần trách nhiệm** | Hoàn thành đúng tiến độ 8 tuần thực tập, đảm bảo hệ thống vận hành ổn định trên AWS | ✅ | ☐ | ☐ |
-| 5 | **Kỷ luật & Tác phong** | Tuân thủ giờ giấc và quy định làm việc, cần tiếp tục duy trì sự nghiêm túc cao trong công việc | ☐ | ✅ | ☐ |
-| 6 | **Tính cầu tiến** | Tiếp thu đóng góp từ Mentor và Giảng viên hướng dẫn, sẵn sàng cải thiện tối ưu hóa code & bundle size | ✅ | ☐ | ☐ |
-| 7 | **Kỹ năng giao tiếp & Thuyết trình** | Truyền đạt ý tưởng kỹ thuật khá, cần tiếp tục rèn luyện kỹ năng diễn đạt và báo cáo trước đám đông | ☐ | ✅ | ☐ |
-| 8 | **Hợp tác nhóm (Teamwork)** | Phối hợp tốt với các thành viên trong nhóm, chia sẻ kiến thức và hỗ trợ giải quyết lỗi chung | ☐ | ✅ | ☐ |
-| 9 | **Ứng xử chuyên nghiệp** | Tôn trọng quy định làm việc, giao tiếp văn minh và giữ môi trường làm việc tích cực | ✅ | ☐ | ☐ |
-| 10 | **Tư duy giải quyết vấn đề** | Phân tích root-cause chính xác từ log F12/CloudWatch, đưa ra giải pháp khắc phục bài bản | ✅ | ☐ | ☐ |
-| 11 | **Đóng góp cho dự án** | Xây dựng hoàn thiện dự án Fav Web Portal chạy thực tế trên AWS S3 và EC2 | ✅ | ☐ | ☐ |
-| 12 | **Quản lý thời gian thuyết trình** | Phân bổ thời gian trình bày báo cáo đôi lúc chưa tối ưu khi giải thích các lỗi kỹ thuật phức tạp | ☐ | ☐ | ✅ |
+| 1 | **Kiến thức chuyên môn** | Hiểu được các dịch vụ AWS cơ bản như Amazon EC2, Amazon S3, Amazon RDS và Amazon CloudWatch, đồng thời vận dụng vào dự án thực tế. | ☐ | ✅ | ☐ |
+| 2 | **Khả năng học hỏi** | Chủ động tìm hiểu tài liệu AWS, Hugo và Docker để hoàn thành các nội dung được giao. | ✅ | ☐ | ☐ |
+| 3 | **Tinh thần chủ động** | Tích cực nghiên cứu tài liệu và tìm giải pháp khi gặp khó khăn trong quá trình triển khai. | ✅ | ☐ | ☐ |
+| 4 | **Tinh thần trách nhiệm** | Hoàn thành các nhiệm vụ theo đúng kế hoạch và đảm bảo tiến độ của chương trình. | ✅ | ☐ | ☐ |
+| 5 | **Kỷ luật & tác phong** | Tuân thủ lịch làm việc và tham gia đầy đủ các hoạt động của chương trình. | ✅ | ☐ | ☐ |
+| 6 | **Khả năng tiếp thu góp ý** | Tiếp nhận các góp ý từ Mentor và điều chỉnh nội dung dự án cũng như tài liệu phù hợp. | ✅ | ☐ | ☐ |
+| 7 | **Kỹ năng giao tiếp** | Có khả năng trao đổi và trình bày các nội dung kỹ thuật, tuy nhiên vẫn cần cải thiện khả năng diễn đạt. | ☐ | ✅ | ☐ |
+| 8 | **Làm việc nhóm** | Phối hợp với các thành viên trong nhóm để hoàn thành các nhiệm vụ của dự án. | ☐ | ✅ | ☐ |
+| 9 | **Tác phong làm việc** | Giữ thái độ nghiêm túc, tích cực và có trách nhiệm trong suốt quá trình thực hiện chương trình. | ✅ | ☐ | ☐ |
+| 10 | **Khả năng giải quyết vấn đề** | Có khả năng phân tích nguyên nhân của các lỗi phát sinh và tìm hướng khắc phục thông qua tài liệu và quá trình thử nghiệm. | ☐ | ✅ | ☐ |
+| 11 | **Đóng góp cho dự án** | Hoàn thành các nội dung triển khai và tài liệu của dự án Fav Web Portal theo kế hoạch đề ra. | ☐ | ✅ | ☐ |
+| 12 | **Quản lý thời gian** | Sắp xếp thời gian học tập và thực hiện dự án tương đối hợp lý, vẫn cần cải thiện trong các giai đoạn có nhiều công việc. | ☐ | ✅ | ☐ |
 
-### Điểm rút ra & Hướng cải thiện bản thân:
+## Bài học rút ra
 
-* **Bài học rút ra:** Nắm chắc nguyên lý bảo mật trên Cloud (Security Groups, IAM Policies, CORS, CSP) giúp tiết kiệm rất nhiều thời gian khi triển khai các hệ thống thực tế.
-* **Cần tiếp tục cải thiện:** 
-  - Nâng cao trải nghiệm làm việc với các công cụ Infrastructure as Code (AWS CDK / Terraform) để tự động hóa việc khởi tạo hạ tầng.
-  - Rèn luyện thêm kỹ năng thuyết trình và demo dự án trước đám đông.
+Thông qua chương trình FCAJ, em hiểu rõ hơn quy trình triển khai một ứng dụng Web trên nền tảng AWS cũng như vai trò của từng dịch vụ trong một hệ thống Cloud. Việc trực tiếp triển khai dự án giúp em củng cố kiến thức đã học và nâng cao khả năng tự nghiên cứu, đọc tài liệu kỹ thuật và giải quyết các vấn đề phát sinh trong quá trình thực hiện.
+
+## Hướng cải thiện
+
+- Tiếp tục tìm hiểu thêm các dịch vụ AWS nâng cao để mở rộng kiến thức về Cloud Computing.
+- Rèn luyện thêm kỹ năng thiết kế kiến trúc hệ thống và tối ưu hiệu năng ứng dụng.
+- Cải thiện kỹ năng trình bày, thuyết trình và viết tài liệu kỹ thuật để phục vụ tốt hơn cho các dự án trong tương lai.

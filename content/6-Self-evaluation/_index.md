@@ -1,6 +1,6 @@
 ---
-title: "Self-evaluation"
-date: 2026-07-24
+title: "Self-Evaluation"
+date: 2026-07-29
 weight: 6
 chapter: false
 pre: " <b> 6. </b> "
@@ -8,30 +8,33 @@ pre: " <b> 6. </b> "
 
 # Self-Evaluation
 
-During the internship at **Amazon Web Services Viet Nam Company Limited** (**First Cloud AI Journey - FCAJ** program) from **15/06/2026** to **15/08/2026**, I had the opportunity to learn, practice, and apply AWS cloud computing knowledge to the **Fav Web Portal** project.
+Throughout the **8-week** **AWS First Cloud AI Journey (FCAJ)** program, I had the opportunity to learn the core services of Amazon Web Services and apply this knowledge by deploying the **Fav Web Portal** project on the AWS Cloud platform.
 
-I directly designed the system architecture, containerized the backend with Docker, deployed services on AWS EC2, S3, RDS, CloudWatch, and resolved complex cross-domain authentication, CORS, and CSP security issues.
+During the project, I gradually became familiar with the complete workflow of deploying a web application on AWS, including architecture design, service deployment, database integration, cloud storage, system monitoring, testing, and technical documentation. In addition to improving my technical knowledge, the program also helped me strengthen my self-learning ability, problem-solving skills, and project planning skills.
 
-Below is my self-evaluation based on FCAJ standard criteria:
+The following table summarizes my self-evaluation based on my overall performance throughout the program.
 
-| No. | Criteria | Description | Good | Fair | Average |
+| No. | Evaluation Criteria | Self-Assessment | Good | Fair | Average |
 | --- | --- | --- | :---: | :---: | :---: |
-| 1 | **Technical Knowledge & Skills** | Solid understanding of AWS Architecture (S3, EC2, RDS, CloudWatch), FastAPI, React, Docker, AI Face Recognition | ✅ | ☐ | ☐ |
-| 2 | **Learning Capability** | Fast learning curve for cloud services, proactive research on AWS documentation, CORS, and CSP policies | ✅ | ☐ | ☐ |
-| 3 | **Proactiveness** | Independent troubleshooting, proactively designed Dual JWT Auth (Cookie + Bearer Fallback) | ✅ | ☐ | ☐ |
-| 4 | **Responsibility** | Completed all 8-week milestones on schedule, ensuring system stability on AWS | ✅ | ☐ | ☐ |
-| 5 | **Discipline & Conduct** | Strictly complied with workplace regulations; continuously maintaining high rigor in all tasks | ☐ | ✅ | ☐ |
-| 6 | **Self-Improvement** | Actively incorporated feedback from Mentors and advisors to optimize code and bundle size | ✅ | ☐ | ☐ |
-| 7 | **Communication & Presentation** | Effective technical concepts delivery; aiming to further refine public speaking and live demo skills | ☐ | ✅ | ☐ |
-| 8 | **Teamwork** | Effective collaboration with team members, sharing knowledge and troubleshooting together | ☐ | ✅ | ☐ |
-| 9 | **Professionalism** | Respectful attitude towards peers, maintaining a constructive work environment | ✅ | ☐ | ☐ |
-| 10 | **Problem-Solving Skills** | Accurate root-cause diagnosis via F12/CloudWatch logs, implementing robust fixes | ✅ | ☐ | ☐ |
-| 11 | **Project Contribution** | Successfully built and delivered live Fav Web Portal on AWS S3 and EC2 | ✅ | ☐ | ☐ |
-| 12 | **Presentation Time Allocation** | Pace allocation during complex technical explanations can be further optimized | ☐ | ☐ | ✅ |
+| 1 | **Technical Knowledge** | Gained a solid understanding of core AWS services such as Amazon EC2, Amazon S3, Amazon RDS, and Amazon CloudWatch, and successfully applied them to the project. | ☐ | ✅ | ☐ |
+| 2 | **Learning Ability** | Proactively studied AWS documentation, Hugo, and Docker to complete the assigned tasks. | ✅ | ☐ | ☐ |
+| 3 | **Initiative** | Actively researched technical documents and explored solutions whenever implementation challenges arose. | ✅ | ☐ | ☐ |
+| 4 | **Responsibility** | Completed assigned tasks according to the planned schedule and met the internship timeline. | ✅ | ☐ | ☐ |
+| 5 | **Discipline & Professionalism** | Followed the program schedule and actively participated in all required activities. | ✅ | ☐ | ☐ |
+| 6 | **Willingness to Learn** | Accepted feedback from mentors and continuously improved both the project implementation and technical documentation. | ✅ | ☐ | ☐ |
+| 7 | **Communication Skills** | Able to discuss and explain technical topics, while recognizing the need to further improve presentation and communication skills. | ☐ | ✅ | ☐ |
+| 8 | **Teamwork** | Collaborated effectively with team members to complete the project tasks. | ☐ | ✅ | ☐ |
+| 9 | **Professional Attitude** | Maintained a positive, responsible, and professional attitude throughout the program. | ✅ | ☐ | ☐ |
+| 10 | **Problem-Solving Skills** | Able to analyze implementation issues and identify appropriate solutions through documentation and experimentation. | ☐ | ✅ | ☐ |
+| 11 | **Project Contribution** | Successfully completed the assigned implementation tasks and technical documentation for the **Fav Web Portal** project. | ☐ | ✅ | ☐ |
+| 12 | **Time Management** | Managed study and project schedules effectively, while recognizing the need for further improvement during periods with multiple concurrent tasks. | ☐ | ✅ | ☐ |
 
-### Reflections & Personal Growth:
+## Lessons Learned
 
-* **Key Takeaway:** Mastering cloud security fundamentals (Security Groups, IAM Policies, CORS, CSP) saves significant engineering time during real-world deployments.
-* **Areas for Continued Growth:**
-  - Further advance Infrastructure as Code skills (AWS CDK / Terraform) to automate infrastructure provisioning.
-  - Practice public presentation and live product demonstration skills.
+Through the FCAJ program, I gained a clearer understanding of the end-to-end process of deploying a web application on AWS and the role of each AWS service within a cloud-based system. Working on a real project strengthened my technical foundation and improved my ability to study documentation independently, troubleshoot implementation issues, and complete technical tasks in a structured manner.
+
+## Areas for Improvement
+
+- Continue exploring more advanced AWS services to broaden my knowledge of Cloud Computing.
+- Improve my skills in designing cloud architectures and optimizing application performance.
+- Further develop my presentation and technical documentation skills to better support future software projects.

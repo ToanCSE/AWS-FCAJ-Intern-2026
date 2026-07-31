@@ -1,23 +1,29 @@
 ---
 title: "Worklog Tuần 7"
-date: 2026-07-24
+date: 2026-07-29
 weight: 7
 chapter: false
 pre: " <b> 1.7. </b> "
 ---
 
 ### Mục tiêu tuần 7:
-* Kiểm thử toàn diện hệ thống tích hợp end-to-end trên AWS S3 và EC2.
-* Kiểm thử khả năng chịu lỗi (Failover & Error Handling) khi ngắt kết nối DB hoặc ngắt mạng.
-* Kiểm thử giao diện trải nghiệm người dùng (UX/UI), luồng quét khuôn mặt và phát nhạc/video.
+* Kiểm thử toàn bộ hệ thống **Fav Web Portal** sau khi hoàn tất triển khai trên AWS.
+* Đánh giá tính ổn định và hiệu năng của ứng dụng trong quá trình vận hành.
+* Hoàn thiện các lỗi còn tồn tại và nâng cao trải nghiệm người dùng.
 
 ### Các công việc triển khai trong tuần này:
+
 | Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành |
 | --- | --- | --- | --- |
-| 2 | - Thực hiện End-to-End Testing cho các chức năng Đăng ký, Đăng nhập Face ID, Đăng bài Feed, Bookmark | 27/07/2026 | 28/07/2026 |
-| 4 | - Kiểm thử tải trang và độ trễ phản hồi của webcam scanner trong môi trường mạng thực tế | 29/07/2026 | 30/07/2026 |
-| 6 | - Kiểm thử xử lý sự cố (Error boundary, rate limit 429, session expiry 401) | 31/07/2026 | 02/08/2026 |
+| 2 | - Kiểm thử các chức năng chính của hệ thống như đăng nhập, nhận diện khuôn mặt, quản lý bài viết và thư viện nội dung <br> - Đánh giá luồng hoạt động giữa Frontend và Backend | 20/07/2026 | 20/07/2026 |
+| 3 | - Kiểm tra kết nối giữa EC2, RDS, S3 và CloudWatch <br> - Đánh giá khả năng hoạt động ổn định của các dịch vụ AWS | 21/07/2026 | 21/07/2026 |
+| 4 | - Kiểm thử hiệu năng và thời gian phản hồi của hệ thống <br> - Rà soát các lỗi phát sinh trong quá trình sử dụng | 22/07/2026 | 22/07/2026 |
+| 5 | - Hoàn thiện các lỗi còn tồn tại <br> - Điều chỉnh giao diện và cải thiện trải nghiệm người dùng | 23/07/2026 | 23/07/2026 |
+| 6 | - Kiểm thử tổng thể sau khi hoàn thiện hệ thống <br> - Đánh giá kết quả triển khai trước khi hoàn thiện Workshop | 24/07/2026 | 24/07/2026 |
+| 7 | - Tham gia sự kiện FCAJ| 25/07/2026 | 25/07/2026 |
 
 ### Kết quả đạt được tuần 7:
-* Toàn bộ luồng nghiệp vụ ứng dụng trên AWS S3 + EC2 hoạt động ổn định và chính xác.
-* Khả năng bắt lỗi và phản hồi cho người dùng được xử lý mượt mà.
+* Hoàn thành kiểm thử toàn bộ hệ thống sau khi triển khai trên AWS.
+* Khắc phục các lỗi phát sinh và nâng cao tính ổn định của ứng dụng.
+* Cải thiện hiệu năng và trải nghiệm sử dụng của **Fav Web Portal**.
+* Sẵn sàng cho giai đoạn hoàn thiện tài liệu và tổng kết dự án.
