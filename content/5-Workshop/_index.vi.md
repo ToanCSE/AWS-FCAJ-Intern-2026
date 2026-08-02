@@ -7,7 +7,7 @@ pre: " <b> 5. </b> "
 ---
 
 # Xây dựng & Triển khai Fav Web Portal trên AWS
-
+Video demo: https://drive.google.com/file/d/1jFuPlljY0ghJYO_0SPVGf9XMxpFI8d3f/view?usp=drive_link
 #### Tổng quan
 
 Trong chuỗi bài hướng dẫn thực hành (Workshop) này, bạn sẽ từng bước xây dựng và triển khai hoàn chỉnh ứng dụng **Fav Web Portal** (Hệ thống Cổng thông tin đa phương tiện tích hợp AI Nhận diện khuôn mặt Face ID) lên hạ tầng điện toán đám mây **Amazon Web Services (AWS)**.
