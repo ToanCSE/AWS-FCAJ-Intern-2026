@@ -7,7 +7,7 @@ pre: " <b> 5. </b> "
 ---
 
 # Build & Deploy Fav Web Portal on AWS
-
+Video demo: https://drive.google.com/file/d/1jFuPlljY0ghJYO_0SPVGf9XMxpFI8d3f/view?usp=drive_link
 #### Overview
 
 In this hands-on workshop series, you will step-by-step build and deploy the complete **Fav Web Portal** application (AI Face Recognition & Multimedia Portal) onto **Amazon Web Services (AWS)** cloud infrastructure.
